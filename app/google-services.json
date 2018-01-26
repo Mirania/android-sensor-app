@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "773405715942",
+    "firebase_url": "https://qhealth-cf56e.firebaseio.com",
+    "project_id": "qhealth-cf56e",
+    "storage_bucket": "qhealth-cf56e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:773405715942:android:39a41a872751b223",
+        "android_client_info": {
+          "package_name": "eu.qhealth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "773405715942-6omekbakenkro8ke00r1ujgv6lcltq2b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "eu.qhealth",
+            "certificate_hash": "77631f66b7bbc657ab73240de359b7e03d3ba484"
+          }
+        },
+        {
+          "client_id": "773405715942-ltq1e7av4brp8mej7mvmpoa7njtapldr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuLsgvRFZqbzmh8zm6S2m36TmdSiX3wps"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "773405715942-ltq1e7av4brp8mej7mvmpoa7njtapldr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="buttonClick"
+        android:text="@string/goback" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@android:color/darker_gray"
+        android:gravity="center"
+        android:text="@string/list"
+        android:textSize="26sp" />
+
+    <ExpandableListView
+        android:id="@+id/planlistview"
+        android:layout_width="match_parent"
+        android:layout_height="390dp"
+        android:indicatorRight="?android:attr/expandableListPreferredItemIndicatorRight"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView3" />
+</RelativeLayout>

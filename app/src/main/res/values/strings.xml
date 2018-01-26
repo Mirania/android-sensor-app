@@ -1,0 +1,120 @@
+<resources>
+    <string name="aberror">Could not properly conclude the exercise.</string>
+    <string name="aperror">Error approving client.</string>
+    <string name="aperror2">Error fetching available clients.</string>
+    <string name="clisterror">Error fetching clients.</string>
+    <string name="detailserror">Description field cannot be empty!</string>
+    <string name="detailserror2">Error processing data.</string>
+    <string name="introerror">Name and password fields cannot be empty!</string>
+    <string name="introerror2">Birth year must be an integer!</string>
+    <string name="introerror3">Weight must be an integer or decimal!</string>
+    <string name="introerror4">Height must be an integer!</string>
+    <string name="introerror5">Username already exists!</string>
+    <string name="introerror6">Error processing data.</string>
+    <string name="infoerror">Error fetching info.</string>
+    <string name="loginerror">User/Password combination not found!</string>
+    <string name="loginerror2">Error querying database.</string>
+    <string name="mainerror">Error fetching user data.</string>
+    <string name="planerror">Could not update the user\'s score.</string>
+    <string name="planerror2">Error fetching exercises.</string>
+    <string name="imgerror">Error fetching image.</string>
+    <string name="loginerror3">Please input a username and password.</string>
+    <string name="usererror">Could not retrieve user data.</string>
+    <string name="noperms">Can\'t start this exercise without the required permissions!</string>
+    <string name="update">Update your stats</string>
+    <string name="plan">qHealth Plan</string>
+    <string name="about">About qHealth</string>
+    <string name="logout">Log Out</string>
+    <string name="abex">Abdominals Exercise</string>
+    <string name="jogex">Jogging Exercise</string>
+    <string name="pushex">Push-ups Exercise</string>
+    <string name="trainer">Trainer</string>
+    <string name="data">Data</string>
+    <string name="list">Here\'s the list</string>
+    <string name="finish">Finish</string>
+    <string name="goback">Go back</string>
+    <string name="devby">Developed by</string>
+    <string name="me">Mirania</string>
+    <string name="menmec">No. x</string>
+    <string name="notme">Someone else</string>
+    <string name="notmenmec">No. y</string>
+    <string name="project">Android Project</string>
+    <string name="cadeira">Intro App</string>
+    <string name="lei">Course</string>
+    <string name="mainmenu">Main Menu</string>
+    <string name="desc">Activity description</string>
+    <string name="moreabout">Tell us more about yourself</string>
+    <string name="checking">Currently checking</string>
+    <string name="bodytype">Body Type</string>
+    <string name="cat">Category</string>
+    <string name="go">Go!</string>
+    <string name="confirm">Confirm</string>
+    <string name="clist">Client List</string>
+    <string name="capp">Client Approval</string>
+    <string name="addtask">Add task</string>
+    <string name="ua">Thing</string>
+    <string name="loginto">Login to qHealth</string>
+    <string name="create">Create account</string>
+    <string name="name">Name</string>
+    <string name="pword">Password</string>
+    <string name="byear">Birth year</string>
+    <string name="height">Height (cm)</string>
+    <string name="weight">Weight (kg)</string>
+    <string name="login">Log in!</string>
+    <string name="donthave">Don\'t have an account?</string>
+    <string name="everyten1">Congratulations! You\'ve finished your</string>
+    <string name="everyten2">th exercise! Keep it up!</string>
+    <string name="threshold1">Well done! Your average score is super high -</string>
+    <string name="threshold2">- Don\'t stop now!</string>
+    <string name="tipofday">Tip of the Day</string>
+    <string name="welcometr">You are currently in trainer mode.</string>
+    <string name="completion">Confirm completion of this task?</string>
+    <string name="detailsyes">Successfully added.</string>
+    <string name="unknown">Unknown</string>
+    <string name="latitude">Current latitude is</string>
+    <string name="longitude">Current longitude is</string>
+    <string name="lumi">Current luminosity value is</string>
+    <string name="youverun">You\'ve run</string>
+    <string name="bmilow">(very low!)</string>
+    <string name="bminormal">(normal)</string>
+    <string name="bmihigh">(high!)</string>
+    <string name="bmiveryhigh">(very high!)</string>
+    <string name="become">Become</string>
+    <string name="strainer">\'s trainer?</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="abds">abdominals</string>
+    <string name="abd">abdominal</string>
+    <string name="pushs">push-ups</string>
+    <string name="push">push-up</string>
+    <string name="youvedone">You\'ve done</string>
+    <string name="sofar">so far</string>
+    <string name="time">Elapsed time</string>
+    <string name="ac">Current acceleration value is</string>
+    <string name="score">You achieved a score of</string>
+    <string name="app_name">QHealth</string>
+    <string name="welcome">Welcome</string>
+    <string name="bmi">Your BMI -> </string>
+    <string name="avg">Average Rating -> </string>
+    <string name="bmidetails">BMI -> </string>
+    <string name="tip1">Salad is healthy</string>
+    <string name="tip2">Drink a lot of water</string>
+    <string name="tip3">Eat slowly</string>
+    <string name="pushup">This exercise will utilise your device\'s luminosity sensor.</string>
+    <string name="ab">This exercise will utilise your device\'s acceleration sensor.</string>
+    <string name="jog">This exercise will utilise your device\'s geolocation tools.</string>
+    <string name="pleasedo">Please do</string>
+    <string name="pleaserun">Please run for </string>
+    <string name="upload">Change Picture</string>
+    <string-array name="body">
+        <item>Fit</item>
+        <item>Fat</item>
+    </string-array>
+    <string-array name="category">
+        <item>Abdominals</item>
+        <item>Push-ups</item>
+        <item>Jogging</item>
+        <item>Sleep</item>
+        <item>Diet</item>
+    </string-array>
+</resources>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layoutIntro"
+    android:clickable="true"
+    android:focusable="true"
+    android:onClick="removeFocus"
+    android:focusableInTouchMode ="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:scaleType="fitXY"
+        android:layout_marginTop="29dp"
+        app:srcCompat="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/moreabout"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:textStyle="bold|italic"
+        android:textColor="#000000"/>
+
+    <ImageView
+        android:id="@+id/userPic"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="17dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@mipmap/ic_launcher"
+        android:layout_below="@+id/textView"
+        android:layout_alignStart="@+id/imageView" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:id="@+id/linearLayout0"
+        android:weightSum="1"
+        android:gravity="center"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true">
+
+        <EditText
+            android:id="@+id/pw"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.59"
+            android:gravity="center"
+            android:inputType="textPassword"
+            android:hint="@string/pword" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:id="@+id/linearLayout"
+        android:weightSum="1"
+        android:gravity="center"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true"
+        >
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="6"
+        android:hint="@string/byear"
+        android:inputType="date"
+        android:layout_marginEnd="13dp"
+        android:layout_below="@+id/spinnerHint"
+        />
+
+    <EditText
+        android:id="@+id/height"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="6"
+        android:hint="@string/height"
+        android:inputType="date"
+        android:layout_alignBaseline="@+id/weight"
+        android:layout_alignBottom="@+id/weight"
+        android:layout_alignStart="@+id/body" />
+
+    <Spinner
+        android:id="@+id/body"
+        android:layout_width="125dip"
+        android:layout_height="wrap_content"
+        android:entries="@array/body"
+        android:minWidth="2dp"
+        android:hint="@string/bodytype"
+        android:dropDownWidth="wrap_content"
+        android:layout_alignBaseline="@+id/date"
+        android:layout_alignBottom="@+id/date"
+        android:layout_alignStart="@+id/spinnerHint"
+        android:textStyle="bold|italic"
+        android:textColor="#000000"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="buttonClick"
+        android:text="@string/go"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_selector"/>
+
+    <TextView
+        android:id="@+id/spinnerHint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bodytype"
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/linearLayout"
+        android:layout_toEndOf="@+id/userPic"
+        android:textStyle="bold|italic"
+        android:textColor="#000000"/>
+
+    <EditText
+        android:id="@+id/weight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="6"
+        android:hint="@string/weight"
+        android:inputType="date"
+        android:layout_below="@+id/date"
+        android:layout_alignStart="@+id/date"
+        android:layout_marginTop="38dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:id="@+id/linearLayout1"
+        android:weightSum="1"
+        android:gravity="center"
+        android:layout_below="@+id/userPic"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="11dp">
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.59"
+            android:gravity="center"
+            android:hint="@string/name" />
+    </LinearLayout>
+</RelativeLayout>

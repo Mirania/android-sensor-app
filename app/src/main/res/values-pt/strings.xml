@@ -1,0 +1,120 @@
+<resources>
+    <string name="aberror">Erro na tentativa de conclusão do exercício.</string>
+    <string name="aperror">Erro a aprovar cliente.</string>
+    <string name="aperror2">Erro a procurar clientes disponíveis.</string>
+    <string name="clisterror">Error a procurar clientes.</string>
+    <string name="detailserror">O campo da descrição não pode ficar vazio!</string>
+    <string name="detailserror2">Erro a processar dados.</string>
+    <string name="introerror">O nome e password não podem ser vazios!</string>
+    <string name="introerror2">Ano de nascimento deve ser um número inteiro!</string>
+    <string name="introerror3">O peso deve ser um número inteiro ou decimal!</string>
+    <string name="introerror4">A altura deve ser um número inteiro!</string>
+    <string name="introerror5">Esse nome já está registado!</string>
+    <string name="introerror6">Erro a processar dados.</string>
+    <string name="infoerror">Erro a procurar a informação necessária.</string>
+    <string name="loginerror">Conta não existente!</string>
+    <string name="loginerror2">Erro a aceder à base de dados.</string>
+    <string name="mainerror">Erro a procurar dados do utilizador.</string>
+    <string name="planerror">Erro a tentar atualizar pontos do utilizador.</string>
+    <string name="planerror2">Error a procurar exercícios.</string>
+    <string name="imgerror">Error a guardar imagem.</string>
+    <string name="loginerror3">Por favor preencha ambos os campos.</string>
+    <string name="usererror">Não foram encontrados os dados do utilizador.</string>
+    <string name="noperms">Não é possível realizar este exercício sem permissões adequadas!</string>
+    <string name="update">Atualizar Conta</string>
+    <string name="plan">Plano qHealth</string>
+    <string name="about">Sobre o qHealth</string>
+    <string name="logout">Efetuar logout</string>
+    <string name="abex">Exercício de Abdominais</string>
+    <string name="jogex">Exercício de Corrida</string>
+    <string name="pushex">Exercício de Flexões</string>
+    <string name="trainer">Treinador</string>
+    <string name="data">Dados</string>
+    <string name="list">Aqui está a lista</string>
+    <string name="finish">Terminar</string>
+    <string name="goback">Voltar</string>
+    <string name="devby">Desenvolvido por</string>
+    <string name="me">Mirania</string>
+    <string name="menmec">Nº x</string>
+    <string name="notme">Outro</string>
+    <string name="notmenmec">Nº y</string>
+    <string name="project">Projeto Android</string>
+    <string name="cadeira">Intro App</string>
+    <string name="lei">Curso</string>
+    <string name="mainmenu">Menu Principal</string>
+    <string name="desc">Descrição da atividade</string>
+    <string name="moreabout">Conte-nos mais acerca de si</string>
+    <string name="checking">Perfil de</string>
+    <string name="bodytype">Tipo Físico</string>
+    <string name="cat">Categoria</string>
+    <string name="go">Confirmar!</string>
+    <string name="confirm">Confirmar</string>
+    <string name="clist">Lista de Clientes</string>
+    <string name="capp">Clientes Admissíveis</string>
+    <string name="addtask">Adicionar tarefa</string>
+    <string name="ua">Coisa</string>
+    <string name="everyten1">Parabéns! Acabou de concluir o seu</string>
+    <string name="everyten2">º exercício! Bom progresso!</string>
+    <string name="threshold1">Excelente! A sua pontuação média é super alta -</string>
+    <string name="threshold2">- Não descanse agora!</string>
+    <string name="loginto">Efetuar Login no qHealth</string>
+    <string name="create">Criar conta</string>
+    <string name="name">Nome</string>
+    <string name="pword">Password</string>
+    <string name="byear">Ano nasc.</string>
+    <string name="height">Altura (cm)</string>
+    <string name="weight">Peso (kg)</string>
+    <string name="login">Log in!</string>
+    <string name="donthave">Não tem conta?</string>
+    <string name="tipofday">Dica do Dia</string>
+    <string name="welcometr">Está em modo de treinador.</string>
+    <string name="completion">Confirma que completou a tarefa?</string>
+    <string name="detailsyes">Adicionada com sucesso.</string>
+    <string name="unknown">Desconhecido</string>
+    <string name="latitude">A sua latitude é</string>
+    <string name="longitude">A sua longitude é</string>
+    <string name="lumi">O valor de luminosidade é</string>
+    <string name="youverun">Andou</string>
+    <string name="bmilow">(muito baixo!)</string>
+    <string name="bminormal">(normal)</string>
+    <string name="bmihigh">(alto!)</string>
+    <string name="bmiveryhigh">(muito alto!)</string>
+    <string name="become">Aceitar</string>
+    <string name="strainer">como seu cliente?</string>
+    <string name="no">Não</string>
+    <string name="yes">Sim</string>
+    <string name="abds">abdominais</string>
+    <string name="abd">abdominal</string>
+    <string name="pushs">flexões</string>
+    <string name="push">flexão</string>
+    <string name="youvedone">Fez</string>
+    <string name="sofar">até agora</string>
+    <string name="time">Tempo decorrido</string>
+    <string name="ac">A aceleração detetada é de</string>
+    <string name="score">Conseguiu uma pontuação de</string>
+    <string name="app_name">QHealth</string>
+    <string name="welcome">Olá</string>
+    <string name="bmi">O seu BMI -> </string>
+    <string name="avg">Pontuação média -> </string>
+    <string name="bmidetails">BMI -> </string>
+    <string name="tip1">Salada faz bem</string>
+    <string name="tip2">Beba muita água</string>
+    <string name="tip3">Coma sem pressa</string>
+    <string name="pushup">Este exercício irá utilizar o sensor de luminosidade do seu telemóvel.</string>
+    <string name="ab">Este exercício irá utilizar o sensor de aceleração do seu telemóvel.</string>
+    <string name="jog">Este exercício irá utilizar as ferramentas de localização geográfica do seu telemóvel.</string>
+    <string name="pleasedo">Por favor faça</string>
+    <string name="pleaserun">Por favor corra</string>
+    <string name="upload">Alterar Imagem</string>
+    <string-array name="body">
+        <item>Musculado</item>
+        <item>Pouco músculo</item>
+    </string-array>
+    <string-array name="category">
+        <item>Abdominais</item>
+        <item>Flexões</item>
+        <item>Corrida</item>
+        <item>Dormir</item>
+        <item>Dieta</item>
+    </string-array>
+</resources>
